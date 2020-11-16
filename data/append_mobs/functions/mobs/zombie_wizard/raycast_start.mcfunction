@@ -1,0 +1,1 @@
+execute anchored eyes run function append_mobs:interfaces/raycast_look

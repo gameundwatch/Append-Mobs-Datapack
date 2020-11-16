@@ -1,0 +1,1 @@
+summon area_effect_cloud ~ ~ ~ {Particle:"witch",Radius:2f,Duration:10,Tags:["insta_damage_zone"],Effects:[{Id:7b,Amplifier:1b,Duration:10}]}

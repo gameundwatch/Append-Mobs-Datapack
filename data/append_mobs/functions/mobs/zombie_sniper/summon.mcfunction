@@ -1,0 +1,3 @@
+playsound minecraft:entity.zombie.infect hostile @a ~ ~ ~ 1 1
+summon skeleton ~ ~ ~ {Tags:["rolled","ZombieSniper"],CustomName:'{"text":"Zombie Sniper"}',HandItems:[{id:"minecraft:bow",Count:1b},{id:"minecraft:tipped_arrow",Count:1b,tag:{CustomPotionEffects:[{Id:17b,Amplifier:2b,Duration:100}],Potion:"minecraft:water"}}],HandDropChances:[0.000F,0.000F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:leather_leggings",Count:1b},{id:"minecraft:leather_chestplate",Count:1b},{id:"minecraft:zombie_head",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.100F]}
+tp @s ~ ~-1000 ~
