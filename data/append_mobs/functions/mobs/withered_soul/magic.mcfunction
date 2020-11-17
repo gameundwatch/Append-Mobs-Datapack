@@ -1,5 +1,5 @@
 
-playsound minecraft:entity.wither.shoot hostile @a ~ ~ ~ 2 0.5
+playsound minecraft:entity.wither.shoot hostile @a ~ ~ ~ 1 0.5
 
 # magic bullet settings
 summon armor_stand ~ ~ ~ {Tags:[New,Bullet,Unslide,WitheredSoulMagic],NoGravity: 0b,Marker: 0b,Invisible: 1b, Small: 1b,Silent: 1b}

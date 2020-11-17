@@ -14,4 +14,5 @@ execute as @s[scores={mob_clock=80}] at @s run playsound minecraft:entity.witch.
 
 # bullet
 execute as @e[tag=ZombieWizardMagic] at @s run function append_mobs:aecs/summon_damage_1
+execute as @e[tag=ZombieWizardMagic] at @s run particle witch ~ ~ ~ 0.1 0.1 0.1 0 10
 

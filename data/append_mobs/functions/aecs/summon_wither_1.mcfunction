@@ -1,1 +1,0 @@
-summon area_effect_cloud ~ ~ ~ {Particle:"soul_fire_flame",Radius:0.1f,Duration:10,Age:0,WaitTime:0,Effects:[{Id:20b,Amplifier:0b,Duration:100}]}
