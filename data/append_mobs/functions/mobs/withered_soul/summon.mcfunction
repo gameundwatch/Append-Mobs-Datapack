@@ -1,0 +1,3 @@
+playsound minecraft:entity.zombie.infect hostile @a ~ ~ ~ 1 1
+summon skeleton ~ ~ ~ {Health:16f,Tags:["rolled","WitheredSoul"],CustomName:'{"text":"Withered Soul"}',ArmorItems:[{},{},{},{id:"minecraft:wither_skeleton_skull",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.100F],Attributes:[{Name:"generic.max_health",Base:16},{Name:"generic.follow_range",Base:40}]}
+function append_mobs:interfaces/tp_to_void

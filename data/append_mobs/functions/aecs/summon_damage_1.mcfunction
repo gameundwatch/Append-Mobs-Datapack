@@ -1,1 +1,1 @@
-summon area_effect_cloud ~ ~ ~ {Particle:"witch",Radius:1f,Duration:2,Effects:[{Id:7b,Amplifier:0b,Duration:1}]}
+summon area_effect_cloud ~ ~ ~ {Particle:"witch",Radius:0.2f,Duration:10,Age:0,WaitTime:1,Effects:[{Id:7b,Amplifier:0b,Duration:10}]}
