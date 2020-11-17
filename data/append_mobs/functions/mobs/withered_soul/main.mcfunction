@@ -23,4 +23,4 @@ execute as @s[scores={mob_clock=80}] at @s run playsound minecraft:block.fire.ex
 
 # bullet
 execute as @e[tag=WitheredSoulMagic] at @s run function append_mobs:effects/wither_100_0
-execute as @e[tag=WitheredSoulMagic] at @s run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0 10
+execute as @e[tag=WitheredSoulMagic] at @s run particle soul_fire_flame ~ ~ ~ 0.5 0.5 0.5 0 10

@@ -1,1 +1,1 @@
-execute at @s if entity @e[distance=..1] run effect give @e[distance=..1] wither 100 0
+execute at @s if entity @e[distance=..1.5] run effect give @e[distance=..1.5] wither 5 0
