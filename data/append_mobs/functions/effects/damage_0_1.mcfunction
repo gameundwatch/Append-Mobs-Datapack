@@ -1,1 +1,0 @@
-execute at @s if entity @e[distance=..1] run effect give @e[distance=..1] instant_damage 0 1

@@ -22,5 +22,5 @@ execute as @s[scores={mob_clock=80..}] at @s if entity @e[type=#append_mobs:frie
 execute as @s[scores={mob_clock=80}] at @s run playsound minecraft:block.fire.extinguish hostile @a ~ ~ ~ 1 0.5
 
 # bullet
-execute as @e[tag=WitheredSoulMagic] at @s run function append_mobs:effects/wither_0_100
+execute as @e[tag=WitheredSoulMagic] at @s run function append_mobs:effects/wither_100_0
 execute as @e[tag=WitheredSoulMagic] at @s run particle soul_fire_flame ~ ~ ~ 0.1 0.1 0.1 0 10
