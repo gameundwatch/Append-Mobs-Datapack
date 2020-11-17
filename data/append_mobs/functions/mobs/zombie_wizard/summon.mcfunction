@@ -1,3 +1,3 @@
 playsound minecraft:entity.zombie.infect hostile @a ~ ~ ~ 1 1
-summon skeleton ~ ~ ~ {Tags:["rolled","ZombieWizard"],CustomName:'{"text":"Zombie Wizard"}',HandItems:[{id:"minecraft:bow",Count:1b},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{display:{color:16777215}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16777215}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:10617005}}},{id:"minecraft:zombie_head",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.100F]}
-tp @s ~ ~-1000 ~
+summon zombie ~ ~ ~ {Tags:["rolled","ZombieWizard"],CustomName:'{"text":"Zombie Wizard"}',HandItems:[{id:"minecraft:golden_hoe",Count:1b},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{display:{color:16777215}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16777215}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:10617005}}},{id:"minecraft:zombie_head",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.100F]}
+function append_mobs:interfaces/tp_to_void
