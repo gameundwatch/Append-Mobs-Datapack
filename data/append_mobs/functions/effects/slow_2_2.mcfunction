@@ -1,0 +1,1 @@
+execute at @s if entity @e[distance=..2] run effect give @e[distance=..2] slowness 2 2
