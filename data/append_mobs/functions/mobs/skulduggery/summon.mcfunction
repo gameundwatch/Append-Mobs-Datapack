@@ -1,3 +1,3 @@
 playsound minecraft:entity.zombie.infect hostile @a ~ ~ ~ 1 1
-summon skeleton ~ ~ ~ {Health:24f,Tags:["rolled","Skulduggery"],CustomName:'{"text":"Skulduggery"}',HandItems:[{id:"minecraft:bow",Count:1b},{}],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:0}}},{id:"minecraft:wither_skeleton_skull",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.100F,0.000F],Attributes:[{Name:"generic.max_health",Base:24}]}
+summon skeleton ~ ~ ~ {Health:24f,Tags:["rolled","Skulduggery"],CustomName:'{"text":"Skulduggery"}',HandItems:[{id:"minecraft:bow",Count:1b},{}],ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:0}}},{id:"minecraft:skeleton_skull",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.000F,0.200F],Attributes:[{Name:"generic.max_health",Base:24}]}
 function append_mobs:interfaces/tp_to_void

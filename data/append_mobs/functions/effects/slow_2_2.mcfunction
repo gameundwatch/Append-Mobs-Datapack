@@ -1,1 +1,1 @@
-execute at @s if entity @e[distance=..2] run effect give @e[distance=..2] slowness 2 2
+execute at @s if entity @e[tag=!Arachne, distance=..1] run effect give @e[distance=..1] slowness 2 2
